@@ -94,7 +94,7 @@ S'il choisit de ne pas la dévoiler, il y a alors *prise sans dévoilement* et i
 S'il choisit de la dévoiler, plusieurs situations sont possibles :
 
 * soit la pièce qu'il dévoile est moins forte que la pièce attaquante : alors l'adversaire prend cette pièce et place sa pièce attaquante sur sa position,
-* soit a pièce qu'il dévoile est plus forte que la pièce attaquante : alors l'attaque échoue et il prend la pièce attaquante sans déplacer la sienne,
+* soit la pièce qu'il dévoile est plus forte que la pièce attaquante : alors l'attaque échoue et il prend la pièce attaquante sans déplacer la sienne,
 * soit les pièces sont de même force : l'attaque est alors repoussée, les deux pièces restent conservent leur position pour ce tour.
 
 #### Bataille masquée
@@ -103,7 +103,7 @@ S'il choisit de la dévoiler, plusieurs situations sont possibles :
 
 Une pièce masquée attaque une pièce masquée. L'ignorance est alors des deux côtés et il s'agit de la situation la plus caractéristiques des Échecs Masqués.
 
-Il n'est pas nécessaire à l'attaquant de prononcer "Battaille" dans ce cas. Mais il doit **anoncer** une figure, supposée être celle ce la pièce attaquante, en même temps qu'il l'indique du doigt, avant de dire "attaque le masque" en indiquant la pièce attaquée sans la toucher. La figure annoncée n'est pas nécessaire la figure réelle, on parle alors de **bluff**. On peut **bluffer à la hausse** en anonçant une force supérieure à celle réelle de la figure, ou, à l'inverse, **bluffer à la baisse**.
+Il n'est pas nécessaire à l'attaquant de prononcer "Battaille" dans ce cas. Mais il doit **anoncer** une figure, supposée être celle ce la pièce attaquante, en même temps qu'il l'indique du doigt, avant de dire "attaque le masque" en indiquant la pièce attaquée sans la toucher. La figure annoncée n'est pas nécessairement la figure réelle, on parle alors de **bluff**. On peut **bluffer à la hausse** en anonçant une force supérieure à celle réelle de la figure, ou, à l'inverse, **bluffer à la baisse**.
 
 Attaqué et attaquant se trouvent alors en position d'**annonceur**, chacun à son **tour d'annonce**.
 
@@ -112,7 +112,7 @@ Attaqué et attaquant se trouvent alors en position d'**annonceur**, chacun à s
 L'annonceur peut prendre plusieurs décisions :
 
 * soit il décide de laisser prendre sa pièce *sans dévoilement*, aucun cas il la retire du jeu, on dit alors qu'il se **couche**. Si l'anonceur était l'attaqué, alors l'attaquant place sa pièce sur la position libérée, sinon, il n'y a pas d'autre mouvement.
-* soit il anonce une figure plus élevée que l'annonceur précédent, on dit alors qu'il **relance**, et le tour d'annonce passe à l'adversaire,
+* soit il annonce une figure plus élevée que l'annonceur précédent, on dit alors qu'il **relance**, et le tour d'annonce passe à l'adversaire,
 * soit il décide de dévoiler sa pièce, et deux situations sont possible :
 	* soit il s'agit d'un pion, celui-ci est alors pris par l'adversaire sans que lui-même ait besoin de dévoiler sa pièce. Si l'adversaire est l'attaquant, alors sa pièce prend la position libérée,
 	* soit il s'agit d'une autre pièce, alors l'adversaire doit dévoiler sa propre pièce et là encore plusieurs situations sont possibles :
