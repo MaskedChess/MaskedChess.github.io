@@ -1,3 +1,9 @@
+--
+title: Masked Chess Home
+--
+
+**Sorry, currently the rules of the Masked Chess are available only in french. English version comming, I promise!**
+
 # Les Échecs Masqués
 
 ## Les règles
