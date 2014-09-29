@@ -1,4 +1,5 @@
 name: Masked Chess
 baseurl: /
 permalink: /:title.html
-
+externname: Masked Chess
+description: A chess game variation where you advance masked...
