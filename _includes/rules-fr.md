@@ -25,19 +25,23 @@ Une pièce est **dévoilée** lorsque sa figure est connue de tous. Le **dévoil
 
 Il y a **bataille** lorsqu'une pièce masquée est attaquée. Il y a bataille masquée lorsqu'une bataille est engagée par une pièce masquée.
 
-#### Force des pièces
+#### Force et valeurs des pièces
 
-Lors de la bataille, un facteur déterminant peut être la **force** des figures. Celles-ci correspondent à ce qui est habituellement admis dans les échecs classiques et utilisé pour calculer les points des joueurs. De la plus faible à la plus forte, voici l'ordre des figures :
+Lors de la bataille, deux facteurs déterminants peuvent être la **force** et la **valeur**, exprimée en points, des figures. Celles-ci correspondent à ce qui est habituellement admis dans les échecs classiques et utilisé pour calculer les points des joueurs. De la plus faible à la plus forte, voici l'ordre des figures :
 
-* le Pion
-* le Cavalier et le Fou, *qui ont la même force*
-* la Tour
-* la Dame
-* le Roi
+* le Pion : 1 point,
+* le Cavalier et le Fou, *qui ont la même force* : 3 points,
+* la Tour : 5 points,
+* la Dame : 10 points,
+* le Roi : une infinité de points.
 
 #### Prise sans dévoilement
 
-Lorsqu'une pièce masquée est prise, elle peut l'être avec ou sans dévoilement selon la situation. **Si une pièce est prise sans dévoilement, c'est son propriétaire qui la retire du jeu sans en faire connaître la figure**, et non son adversaire comme il est d'usage aux échecs ordinaires.
+Lorsqu'une pièce masquée est prise, elle peut l'être avec ou sans dévoilement selon la situation. **Si le joueur prend une pièce sans dévoilement, alors c'est l'adversaire qui la retire du jeu sans en faire connaître la figure**, et non je joueur comme il est d'usage aux échecs ordinaires.
+
+#### Échec suite à dévoilement
+
+Il peut arriver que le joueur, après avoir engagé et perdu une bataille voit son Roi démasqué mis en échec par le dévoilement de la pièce de l'adversaire qui est alors sur le point de jouer : théoriquement, il pourrait alors prendre le Roi. Le joueur a alors perdu la partie, l'adversaire a gagné. Cette victoire est dite **"Échec suite à dévoilement"**. Celle-ci a la même valeur qu'un échec et mat.
 
 ### Mise en place du jeu
 
@@ -64,37 +68,41 @@ Une pièce peut être dévoilée dans plusieurs situations.
 
 #### Par le joueur
 
-Le joueurpeut décider de dévoiler sa pièce *avant* de la déplacer. Sa figure est alors connue de tous, et la pièce peut se déplacer comme elle le fait aux échecs ordinaires.
+Le joueur peut décider de dévoiler sa pièce *avant* de la déplacer. Sa figure est alors connue de tous, et la pièce peut se déplacer comme elle le fait aux échecs ordinaires.
 
-#### Par mise en échec de la pièce masquée
+#### Par "Échec au Masque"
 
-Lorsque l'adversaire, à la suite de son dernier coup, menace une pièce masquée, il peut déclarer un **échec au masque** (il prononce les mots à haute voix) en indiquant du doigt *sans la toucher* la pièce masquée qu'il menace. Le joueur a alors le choix : soit il dévoile la pièce masquée, soit il la laisse masquée, et c'est alors à lui de jouer. *S'il la laisse masquée, alors l'adversaire peut au coup suivant prendre la pièce masquée qu'il a mise en échec sans engager une bataille, mais également **sans la dévoiler**.*
+Lorsque le joueur, à la suite de son dernier coup, menace une pièce masquée, il peut anoncer un "Échec au Masque" en indiquant la position de la pièce menacée soit en donnant ses coordonnées, soit en la montrant du doigt *sans la toucher*.
 
-Il ne peut y avoir de mise en échec que d'une seule pièce masquée lors d'un tour.
+L'adversaire a alors le choix : soit il dévoile la pièce masquée, soit il la laisse masquée. Une fois que son choix est fait, c'est alors son tour de jouer.
 
-#### Par mise en échec et mat de la pièce masquée
+*Si l'adversaire n'a pas dévoilé la pièce masquée et si celle-ci est toujours menacée par la même pièce, alors le joueur, peut prendre la pièce masquée sans engager une bataille, mais également **sans la dévoiler**.*
 
-Lorsque l'adversaire, à la suite de son dernier coup, menace une pièce masquée de telle sorte à ce qu'il soit impossible à son propriétaire de la soustraire à cette menace dès le coup suivant, l'adversaire peut alors déclarer un **échec et mat au masque** (là aussi, il prononce les mots à haute voix) en indiquant du doigt *sans la toucher* la pièce masquée qu'il menace. Le propriétaire n'a alors pas le choix : il *doit* dévoiler la pièce en question. S'il s'agit du Roi, il a naturellement perdu.
+Il ne peut y avoir de mise en échec **que d'une seule pièce masquée** lors d'un tour et ce même si le mouvement a permis de menacer plusieurs pièces masquée. La pièce mise en échec doit être annoncée.
+
+#### Par "Échec et Mat au Masque"
+
+Lorsque le joueur, à la suite de son dernier coup, menace une pièce masquée de telle sorte à ce qu'il soit impossible à l'adversaire de la soustraire à cette menace dès le coup suivant, le joueur peut alors déclarer un **Échec et Mat au Masque** (là aussi, il prononce les mots à haute voix) en indiquant la position de la pièce soit en donnant ses coordonnées, soit du doigt *sans la toucher*. L'adversaire n'a alors pas le choix : il *doit* dévoiler la pièce en question. S'il s'agit du Roi, il a naturellement perdu.
 
 ### Bataille
-Il y a bataille lorsque l'adversaire tente de prendre une pièce masquée. Contrairement aux échecs classiques, la prise d'une pièce masquée ne va pas de soit, l'idée étant qu'une pièce forte maquillée en une pièce faible est succeptible d'offrir plus de résistance qu'attendu...
+Il y a bataille lorsque le joueur tente de prendre une pièce masquée. Contrairement aux échecs classiques, la prise d'une pièce masquée ne va pas de soi, l'idée étant qu'une pièce forte maquillée en une pièce faible est succeptible d'offrir plus de résistance qu'attendu...
 
 La bataille constitue un mouvement en elle-même et compte comme tel.
 
-Lorsqu'il souhaite prendre une pièce masquée, l'adversaire déclare une **bataille** (il prononce le mot à haute voix) en indiquant, sans les toucher, d'abord sa pièce attaquante, puis la pièce attaquée. Ne peuvent être engagées dans une bataille qu'une seule pièce attaquante et une pièce attaquée.
+Lorsqu'il souhaite prendre une pièce masquée, le joueur déclare une **bataille** (il prononce le mot à haute voix) en indiquant les pièces engagées soit en donnant leurs coordonnées soit en les montrant du doigt, *sans toucher la pièce attaquée de l'adversaire*. Ne peuvent être engagées dans une bataille qu'une seule pièce attaquante et une pièce attaquée.
 
 Deux situations sont alors possibles : soit la pièce attaquante est déjà dévoilée, il s'agit alors d'une **bataille simple** ; soit elle est masquée, il s'agit alors d'une **bataille masquée**.
 
 #### Bataille simple
 
-Lors de la bataille simple, le propriétaire de la pièce attaquée a le choix entre dévoiler sa pièce ou non.
+Lors de la bataille simple, l'adversaire attaqué a le choix entre dévoiler sa pièce ou non.
 
 S'il choisit de ne pas la dévoiler, il y a alors *prise sans dévoilement* et il retire lui-même sa pièce du jeu tandis que l'adversaire place sa propre pièce attaquante sur la position qui était celle de la pièce attaquée.
 
 S'il choisit de la dévoiler, plusieurs situations sont possibles :
 
-* soit la pièce qu'il dévoile est moins forte que la pièce attaquante : alors l'adversaire prend cette pièce et place sa pièce attaquante sur sa position,
-* soit la pièce qu'il dévoile est plus forte que la pièce attaquante : alors l'attaque échoue et il prend la pièce attaquante sans déplacer la sienne,
+* soit la pièce qu'il dévoile est moins forte que la pièce attaquante : alors le joueur prend cette pièce et place sa pièce attaquante sur sa position,
+* soit la pièce qu'il dévoile est plus forte que la pièce attaquante : alors l'attaque échoue et l'adversaire prend la pièce attaquante sans déplacer la sienne,
 * soit les pièces sont de même force : l'attaque est alors repoussée, les deux pièces conservent leur position pour ce tour.
 
 #### Bataille masquée
@@ -103,24 +111,28 @@ S'il choisit de la dévoiler, plusieurs situations sont possibles :
 
 Une pièce masquée attaque une pièce masquée. L'ignorance est alors des deux côtés et il s'agit de la situation la plus caractéristique des Échecs Masqués.
 
-Il n'est pas nécessaire à l'attaquant de prononcer "Bataille" dans ce cas. Mais il doit **annoncer** une figure, supposée être celle ce la pièce attaquante, en même temps qu'il l'indique du doigt, avant de dire "attaque le masque" en indiquant la pièce attaquée sans la toucher. La figure annoncée n'est pas nécessairement la figure réelle, on parle alors de **bluff**. On peut **bluffer à la hausse** en anonçant une force supérieure à celle réelle de la figure, ou, à l'inverse, **bluffer à la baisse**.
+Le joueur déclare une "Bataille masquée" en indiquant les deux pièces impliquées soit par leurs coordonnées, soit en les montrant du doigt, *sans toucher la pièce de l'adversaire*.
 
-Attaqué et attaquant se trouvent alors en position d'**annonceur**, chacun à son **tour d'annonce**.
+Joueur et adversaire se trouvent alors en position d'**annonceur**, chacun à son **tour d'enchère**, en commençant par le joueur.
 
-##### Tour d'annonce
+##### Tour d'enchère
+
+Les tours d'enchère permettent de résoudre une bataille masquée selon un modèle rapellant le poker. Les mises sont effectuées oralement en points, ces points correspondants à des pièces selon leur valeur.
 
 L'annonceur peut prendre plusieurs décisions :
 
-* soit il décide de laisser prendre sa pièce *sans dévoilement*, auquel cas il la retire du jeu, on dit alors qu'il se **couche**. Si l'anonceur était l'attaqué, alors l'attaquant place sa pièce sur la position libérée, sinon, il n'y a pas d'autre mouvement.
-* soit il annonce une figure plus élevée que l'annonceur précédent, on dit alors qu'il **relance**, et le tour d'annonce passe à l'adversaire,
-* soit il décide de dévoiler sa pièce, et deux situations sont possibles :
-	* soit il s'agit d'un pion, celui-ci est alors pris par l'adversaire sans que lui-même ait besoin de dévoiler sa pièce. Si l'adversaire est l'attaquant, alors sa pièce prend la position libérée,
-	* soit il s'agit d'une autre pièce, alors l'adversaire doit dévoiler sa propre pièce et là encore plusieurs situations sont possibles :
-		* soit la pièce de l'attaquant est plus forte que la pièce de l'attaqué, alors la pièce de l'attaqué est retirée du jeu et la pièce de l'attaquant prend sa position,
-		* soit la pièce de l'attaqué est plus forte que celle de l'attaquant, alors la pièce de l'attaquant est retirée du jeu, mais la pièce de l'attaqué conserve sa position,
-		* soit les deux pièces sont de même force, et là, une dernière fois, plusieurs situations sont possibles :
-			* s'il n'y a eu aucun *bluff à la hausse*, l'attaque est repoussée et les deux pièces conservent leur position,
-			* s'il y a eu *bluff à la hausse*, la pièce du dernier anonceur est retirée du jeu. S'il s'agit de l'attaqué, la pièce de l'attaquant prend la position libérée.
+* se coucher : il perd alors sa pièce sans la dévoiler,
+* relancer : il indique une nouvelle hauteur de mise supérieure à la mise précédente et l'adversaire devient alors l'annonceur,
+* suivre : l'enchère s'arrête alors là, les deux pièces sont dévoilées.
+
+##### Fin des enchères
+
+Celui des deux qui a la pièce la moins forte choisit parmi ses pièces celles qui sont perdues pour correspondre aux nombre de points qu'il a misé. Se référer au paragraphe [Force et valeur des pièces](#Force_et_valeur_des_pièces) pour connaître la valeur en point de chaque type de pièce. La valeur de pièces remises doit être au moins égale à la mise. La pièce impliquée dans la bataille masquée en fait nécessairement partie.
+Si les deux pièces sont de même force, aucun mouvement n'a lieu.
+
+##### Annonce à 41
+
+Étant donné que le nombre de points maximum réprésenté par les pièces d'un joueur, hors le Roi, est de 40, une relance à 41 signifie que la mise est la victoire. Si un joueur relance à 41 et que l'adversaire suit, celui qui gagne cette bataille gagne la partie. Par contre, si l'adversaire se couche ou si les deux pièces sont de force égale, la partie continue.
 
 ### Le Roque
 
@@ -130,15 +142,16 @@ La seule modification est la suivante : les échecs ordinaires prévoient que le
 
 Il est par ailleurs évident que le Roque provoque le dévoilement des deux pièces impliquées dans le mouvement.
 
-### Fin de partie
+### Fins de partie
 
-Victoire et défaite sont les mêmes qu'aux échecs, mais il est à remarquer qu'un Roi peut très bien avoir été perdu sans avoir été dévoilé. Dans ce cas, la partie continue jusqu'à ce que:
+Plusieurs fins de partie sont possibles :
 
-* le Roi de l'adversaire ait été mis échec et mat, auquel cas on peut parler (ou pas) de **victoire sans Roi**
-* toutes les pièces du joueur qui a perdu le Roi masqué ait été dévoilées, on parle de **défaite sans Roi**
-* le Roi de l'adversaire ait été mis pat, auquel cas il y a match nul.
+* les mêmes fins qu'aux échecs classiques : échec et mat, pat...,
+* victoire par [échec suite à dévoilement](#echec_suite_a_devoilement) qui se produit lorsqu'une pièce dévoilée à la suite d'une bataille met le Roi de l'attaquant en échec,
+* victoire par [annonce à 41](#Annonce_a_41) qui se produit à l'issue d'une bataille masquée,
+* victoire par dévoilement complet sans Roi.
 
-Une victoire sans Roi a la même valeur qu'un échec et mat.
+Cette dernière victoire n'a pas encore été évoquée mais découle naturellement des règles ci-dessus. En effet, il est possible que le Roi d'un joueur ait été pris sans être démasqué. Dans ce cas, rien n'oblige ce joueur à accepter sa victoire, il peut continuer à jouer tant que l'adversaire ignore que le Roi est pris : il faudra alors à l'adversaire dévoiler toutes les pièces du joueur, c'est-à-dire obtenir un dévoilement complet, pour gagner.
 
 Une fois la partie terminée, les joueurs *peuvent* dévoiler leurs pièces, mais ils n'y sont en aucun cas contraints.
 
