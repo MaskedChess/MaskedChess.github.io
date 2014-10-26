@@ -25,7 +25,7 @@ Une pièce est **dévoilée** lorsque sa figure est connue de tous. Le **dévoil
 
 Il y a **bataille** lorsqu'une pièce masquée est attaquée. Il y a bataille masquée lorsqu'une bataille est engagée par une pièce masquée.
 
-#### Force et valeurs des pièces
+#### Force et valeur des pièces
 
 Lors de la bataille, deux facteurs déterminants peuvent être la **force** et la **valeur**, exprimée en points, des figures. Celles-ci correspondent à ce qui est habituellement admis dans les échecs classiques et utilisé pour calculer les points des joueurs. De la plus faible à la plus forte, voici l'ordre des figures :
 
