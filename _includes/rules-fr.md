@@ -127,7 +127,7 @@ L'annonceur peut prendre plusieurs décisions :
 
 ##### Fin des enchères
 
-Celui des deux qui a la pièce la moins forte choisit parmi ses pièces celles qui sont perdues pour correspondre aux nombre de points qu'il a misé. Se référer au paragraphe [Force et valeur des pièces](#Force_et_valeur_des_pièces) pour connaître la valeur en point de chaque type de pièce. La valeur de pièces remises doit être au moins égale à la mise. La pièce impliquée dans la bataille masquée en fait nécessairement partie.
+Celui des deux qui a la pièce la moins forte choisit parmi ses pièces celles qui sont perdues pour correspondre aux nombre de points qu'il a misé. Se référer au paragraphe [Force et valeur des pièces](#force-et-valeur-des-pices) pour connaître la valeur en point de chaque type de pièce. La valeur de pièces remises doit être au moins égale à la mise. La pièce impliquée dans la bataille masquée en fait nécessairement partie.
 Si les deux pièces sont de même force, aucun mouvement n'a lieu.
 
 ##### Annonce à 41
@@ -147,8 +147,8 @@ Il est par ailleurs évident que le Roque provoque le dévoilement des deux piè
 Plusieurs fins de partie sont possibles :
 
 * les mêmes fins qu'aux échecs classiques : échec et mat, pat...,
-* victoire par [échec suite à dévoilement](#echec_suite_a_devoilement) qui se produit lorsqu'une pièce dévoilée à la suite d'une bataille met le Roi de l'attaquant en échec,
-* victoire par [annonce à 41](#Annonce_a_41) qui se produit à l'issue d'une bataille masquée,
+* victoire par [échec suite à dévoilement](#echec-suite--dvoilement) qui se produit lorsqu'une pièce dévoilée à la suite d'une bataille met le Roi de l'attaquant en échec,
+* victoire par [annonce à 41](#nnonce--41) qui se produit à l'issue d'une bataille masquée,
 * victoire par dévoilement complet sans Roi.
 
 Cette dernière victoire n'a pas encore été évoquée mais découle naturellement des règles ci-dessus. En effet, il est possible que le Roi d'un joueur ait été pris sans être démasqué. Dans ce cas, rien n'oblige ce joueur à accepter sa victoire, il peut continuer à jouer tant que l'adversaire ignore que le Roi est pris : il faudra alors à l'adversaire dévoiler toutes les pièces du joueur, c'est-à-dire obtenir un dévoilement complet, pour gagner.
