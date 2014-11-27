@@ -130,9 +130,9 @@ L'annonceur peut prendre plusieurs décisions :
 Celui des deux qui a la pièce la moins forte choisit parmi ses pièces celles qui sont perdues pour correspondre aux nombre de points qu'il a misé. Se référer au paragraphe [Force et valeur des pièces](#force-et-valeur-des-pices) pour connaître la valeur en point de chaque type de pièce. La valeur de pièces remises doit être au moins égale à la mise. La pièce impliquée dans la bataille masquée en fait nécessairement partie.
 Si les deux pièces sont de même force, aucun mouvement n'a lieu.
 
-##### Annonce à 41
+##### Annonce à 31
 
-Étant donné que le nombre de points maximum réprésenté par les pièces d'un joueur, hors le Roi, est de 40, une relance à 41 signifie que la mise est la victoire. Si un joueur relance à 41 et que l'adversaire suit, celui qui gagne cette bataille gagne la partie. Par contre, si l'adversaire se couche ou si les deux pièces sont de force égale, la partie continue.
+Étant donné que pour couvrir une enchère à 31, le joueur doit risquer toutes ses pièces, hors le Roi, une relance à 31 signifie que la mise est la victoire (le Roi ne peut gagner seul). Si un joueur relance à 31 et que l'adversaire suit, celui qui gagne cette bataille gagne la partie. Par contre, si l'adversaire se couche ou si les deux pièces sont de force égale, la partie continue.
 
 ### Le Roque
 
