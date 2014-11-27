@@ -25,6 +25,6 @@ Là, la dame démasquée menacée par un cavalier démasqué, vu depuis les noir
 
 Enfin pour fini, un fou qui pose seulement pour la photo, montrant ses deux faces :
 
-![Fou couché](images/IMG_4361.JPG)
+![Fou couché](images/IMG_4362.JPG)
 
 Pour ce prototype, les pièces sont des pavés à base carrée dont deux faces indiquent la figure, une face horizontale, tournée vers le joueur qui connait donc ses propres pièces et une face carrée tournée vers le sol au début du jeu. Pour démasquer la pièce, il suffit de la retourner et la face carrée avec la figure se trouve alors au-dessus et visible par tous.
