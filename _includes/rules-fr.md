@@ -148,7 +148,7 @@ Plusieurs fins de partie sont possibles :
 
 * les mêmes fins qu'aux échecs classiques : échec et mat, pat...,
 * victoire par [échec suite à dévoilement](#chec-suite--dvoilement) qui se produit lorsqu'une pièce dévoilée à la suite d'une bataille met le Roi de l'attaquant en échec,
-* victoire par [annonce à 41](#annonce--41) qui se produit à l'issue d'une bataille masquée,
+* victoire par [annonce à 31](#annonce--31) qui se produit à l'issue d'une bataille masquée,
 * victoire par dévoilement complet sans Roi.
 
 Cette dernière victoire n'a pas encore été évoquée mais découle naturellement des règles ci-dessus. En effet, il est possible que le Roi d'un joueur ait été pris sans être démasqué. Dans ce cas, rien n'oblige ce joueur à accepter sa victoire, il peut continuer à jouer tant que l'adversaire ignore que le Roi est pris : il faudra alors à l'adversaire dévoiler toutes les pièces du joueur, c'est-à-dire obtenir un dévoilement complet, pour gagner.
